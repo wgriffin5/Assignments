@@ -1,18 +1,25 @@
-answer = rand(100)  
-i = 0
+answer = rand(100) + 1  
+# guesses = 0
 
-loop do
-puts ("Human, guess my number between 1 and a 100. What is your number?")
-if i < 5 
 
-	gets.chomp 
-num = gets.chomp  
-if num == answer
+puts ("Human, guess my number between 1 and a 100.")
+5.times do 
+
+guess = gets.chomp.to_i
+	#puts ("Human, guess my number between 1 and a 100.")
+	
+	#guess = gets.chomp  
+	# guesses += 1
+   
+if guess == answer
 puts "WIN"
-elsif num > answer
-puts "Guess lower Human"
-elsif num < answer
-puts "Guess higher Human"  
+
+	elsif guess > answer
+	puts "Guess lower Human"
+	elsif guess < answer
+	puts "Guess higher Human"  
 end 
 end
-end 
+
+puts "You lose!"
+
