@@ -14,6 +14,8 @@
 # course also a class
 
 
+# More important to get horses down, and MOVING
+
 class Horses
 
 	attr_accessor : name
@@ -63,8 +65,14 @@ horse4.name = "horse4"
 horse4.start = 0 
 horse4.picture = "X"
 
+end 
 
 
+  # find user input that will move horses
+
+# get horses moving 
+
+# puts "---""
 
 
 
