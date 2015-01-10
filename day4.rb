@@ -69,7 +69,7 @@ horse4.speed = 1
 horse4.picture = "X"
 
 end 
-
+end 
 
   # find user input that will move horses
 
