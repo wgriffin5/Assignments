@@ -33,8 +33,12 @@ end
 #Horse.list_of_horses.push(self)
 end
 def display_information
-"#{self.Horse_1} #{self.0} #{self.rand(10)}"
+"#{self.name} #{self.0} #{self.start}
 end
+
+def hyphen_movement 
+
+	self.start
 # Class Method
 def self.display_all_horses
 end
