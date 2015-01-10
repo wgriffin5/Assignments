@@ -42,7 +42,21 @@ def hyphen_movement
 
 horse1 = Horses.new
 horse1.name = horse1 
-horse
+horse1.start = 0
+horse1.speed = rand(10)
+horse1.picture = "X"
+
+horse2 = Horses.new
+horse2.name = horse2
+horse2.start = 0
+horse2.speed = rand(10)
+horse2.picture = "X"
+
+horse3 = 
+
+
+
+
 # Class Method
 def self.display_all_horses
 end
