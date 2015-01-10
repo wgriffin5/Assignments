@@ -14,22 +14,23 @@
 # course also a class
 
 
-class Horse
+class Horses
 
-attr_accessor : name
-attr_accessor : start
-attr_accessor : speed
-@@list_of_horses = []
+	attr_accessor : name
+	attr_accessor : start
+	attr_accessor : speed
+#@@list_of_horses = []
 # Object/Instance method
 # Encapsulation
 # Constructor
 def initialize
+	self.name = "Horse1"
+	self.start = 0
+	self.speed = rand(10)
+end
 
-self.name = "Horse1"
-self.start = "0"
-self.speed = rand(10)
 
-Horse.list_of_horses.push(self)
+#Horse.list_of_horses.push(self)
 end
 def display_information
 "#{self.Horse_1} #{self.0} #{self.rand(10)}"
