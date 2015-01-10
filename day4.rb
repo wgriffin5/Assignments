@@ -72,9 +72,20 @@ end
 
 # get horses moving 
 
+def go
+#get the horses going
+
+# start + rand(10)  
+
 # puts "---""
 
 
+# perhaps Track can be a giant ARRAY (like tic tac toe)
+
+class Track
+	attr_accessor : beginning
+	attr_accessor : finish 
+	
 
 # Class Method
 def self.display_all_horses
