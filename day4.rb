@@ -21,6 +21,7 @@ class Horses
 	attr_accessor : name
 	attr_accessor : start
 	attr_accessor : speed
+	attr_accessor : place
 	attr_accessor : picture
 #@@list_of_horses = []
 # Object/Instance method
@@ -30,6 +31,7 @@ def initialize
 	self.name = "Horse1"
 	self.start = 0
 	self.speed = rand(10)
+	self.place = ???????
 	self.picture = ######???
 end
 
@@ -45,24 +47,25 @@ def hyphen_movement
 horse1 = Horses.new
 horse1.name = "horse1" 
 horse1.start = 0
-horse1.speed = rand(10)
+horse1.speed = 1      #{}(changed this to 1, instead of 0. yielding a constant speed to be * by rand)
 horse1.picture = "X"
 
 horse2 = Horses.new
 horse2.name = "horse2"
 horse2.start = 0
-horse2.speed = rand(10)
+horse2.speed = 1
 horse2.picture = "X"
 
 horse3 = Horses.new
 horse3.name = "horse3"
 horse3.start = 0
-horse3.speed = rand(10)
+horse3.speed = 1
 horse3.picture = "X"
 
 horse4 = Horses.new
 horse4.name = "horse4"
 horse4.start = 0 
+horse4.speed = 1 
 horse4.picture = "X"
 
 end 
@@ -72,7 +75,10 @@ end
 
 # get horses moving 
 
-def go
+# def go 
+if place < 100
+	self.place += (rand(10))
+
 #get the horses going
 
 # start + rand(10)  
@@ -85,7 +91,7 @@ def go
 class Track
 	attr_accessor : beginning
 	attr_accessor : finish 
-	
+
 
 # Class Method
 def self.display_all_horses
