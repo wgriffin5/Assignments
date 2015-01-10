@@ -19,6 +19,7 @@ class Horses
 	attr_accessor : name
 	attr_accessor : start
 	attr_accessor : speed
+	attr_accessor : picture
 #@@list_of_horses = []
 # Object/Instance method
 # Encapsulation
@@ -27,6 +28,7 @@ def initialize
 	self.name = "Horse1"
 	self.start = 0
 	self.speed = rand(10)
+	self.picture = ######???
 end
 
 
@@ -38,7 +40,9 @@ end
 
 def hyphen_movement 
 
-	self.start
+horse1 = Horses.new
+horse1.name = horse1 
+horse
 # Class Method
 def self.display_all_horses
 end
