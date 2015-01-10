@@ -41,18 +41,29 @@ end
 def hyphen_movement 
 
 horse1 = Horses.new
-horse1.name = horse1 
+horse1.name = "horse1" 
 horse1.start = 0
 horse1.speed = rand(10)
 horse1.picture = "X"
 
 horse2 = Horses.new
-horse2.name = horse2
+horse2.name = "horse2"
 horse2.start = 0
 horse2.speed = rand(10)
 horse2.picture = "X"
 
-horse3 = 
+horse3 = Horses.new
+horse3.name = "horse3"
+horse3.start = 0
+horse3.speed = rand(10)
+horse3.picture = "X"
+
+horse4 = Horses.new
+horse4.name = "horse4"
+horse4.start = 0 
+horse4.picture = "X"
+
+
 
 
 
