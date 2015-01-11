@@ -51,24 +51,26 @@ def cheat_method
 	self.location += 30
 end
 
-end
 
 class Track
 
 	attr_accessor :length 
-
+	attr_accessor :location
 def initialize
 	self.length = 100
+	self.location = 0
 end
 
 def rails horse
-	horse_names.each do | rails |
+	horse_names = ["horse1", "horse2", "horse3", "horse4"]
+
+	horse_names.each do | r |
 		puts 
 		self.length.times do 
 			print "#"
 		end
 		puts "\n\n"
-		rails.location.times do
+		r.location.times do
 			print "-"
 		end
 		puts "#{rails.name}"
@@ -82,6 +84,20 @@ end
 
 
 horse_names = ["horse1", "horse2", "horse3", "horse4"]
+
+track_new = Track.new
+
+track_new.rails (horse_names)
+
+while horse_names[0].location < 100 && 
+	horse_names[1].location < 100 &&
+	horse_names[2].location < 100 &&
+	horse_names[3].location < 100 
+
+
+
+
+
 
 # horse1 = Horses.new
 # horse1.name = "horse1" 
@@ -107,68 +123,68 @@ horse_names = ["horse1", "horse2", "horse3", "horse4"]
 # horse4.speed = 1 
 # horse4.picture = "X"
 
-end 
-end 
+# end 
+# end 
 
-  # find user input that will move horses
+#   # find user input that will move horses
 
-# get horses moving 
+# # get horses moving 
 
-# def go 
-if place < 100
-	self.place += (rand(10)) * self.speed)
-else self.place = 0 
-
-
-#get the horses going
-
-# start + rand(10)  
-
-# puts "---""
+# # def go 
+# if place < 100
+# 	self.place += (rand(10)) * self.speed)
+# else self.place = 0 
 
 
-# perhaps Track can be a giant ARRAY (like tic tac toe)
+# #get the horses going
 
-#class Track
-	# attr_accessor : beginning
-	# attr_accessor : finish
-	# attr_accessor :  
+# # start + rand(10)  
+
+# # puts "---""
 
 
-# Class Method
-def self.display_all_horses
-end
-def self.list_of_horses
-# p self
-@@list_of_horses
-end
-end
-# nicks_car = Car.new
-# nicks_car.make = "Lotus"
-# nicks_car.model = "Elise"
-# nicks_car.color = "Lazer Blue"
-# nicks_car.back_seats = 0
-# nicks_car.max_speed = 160
-# jackies_car = Car.new
-# jackies_car.make = "Nissan"
-# jackies_car.color = "Baige"
-# jackies_car.model = "Versa"
-# jackies_car.back_seats = 3
-# jackies_car.max_speed = 105
-# adams_car = Car.new
-# p adams_car
-# p nicks_car
-# p jackies_car
-# p adams_car
-# class Float
+# # perhaps Track can be a giant ARRAY (like tic tac toe)
+
+# #class Track
+# 	# attr_accessor : beginning
+# 	# attr_accessor : finish
+# 	# attr_accessor :  
+
+
+# # Class Method
+# def self.display_all_horses
 # end
-# a = "Some random string"
-# a = String.new("Some random string")
-# a = Float.new(10.0)
-# a = 10
-# a = "Hey Ryan!"
-# a.methodname
-# puts nicks_car.display_information
-# puts jackies_car.display_information
-# puts adams_car.display_information
-# p Car.list_of_cars
+# def self.list_of_horses
+# # p self
+# @@list_of_horses
+# end
+# end
+# # nicks_car = Car.new
+# # nicks_car.make = "Lotus"
+# # nicks_car.model = "Elise"
+# # nicks_car.color = "Lazer Blue"
+# # nicks_car.back_seats = 0
+# # nicks_car.max_speed = 160
+# # jackies_car = Car.new
+# # jackies_car.make = "Nissan"
+# # jackies_car.color = "Baige"
+# # jackies_car.model = "Versa"
+# # jackies_car.back_seats = 3
+# # jackies_car.max_speed = 105
+# # adams_car = Car.new
+# # p adams_car
+# # p nicks_car
+# # p jackies_car
+# # p adams_car
+# # class Float
+# # end
+# # a = "Some random string"
+# # a = String.new("Some random string")
+# # a = Float.new(10.0)
+# # a = 10
+# # a = "Hey Ryan!"
+# # a.methodname
+# # puts nicks_car.display_information
+# # puts jackies_car.display_information
+# # puts adams_car.display_information
+# # p Car.list_of_cars
