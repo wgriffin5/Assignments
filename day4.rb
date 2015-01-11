@@ -18,31 +18,30 @@
 
 class Horses
 
-	attr_accessor : name
-	attr_accessor : start
-	attr_accessor : speed
-	attr_accessor : place
-	attr_accessor : picture
+	attr_accessor :name
+	attr_accessor :location
+	attr_accessor :speed
+	
 #@@list_of_horses = []
 # Object/Instance method
 # Encapsulation
 # Constructor
 def initialize
 	self.name = "Horse1"
-	self.start = 0
-	self.speed = rand(10)
-	self.place = ???????
-	self.picture = ######???
+	self.location = 0
+	self.speed = 3
+	
 end
 
 
 #Horse.list_of_horses.push(self)
 end
 def display_information
-"#{self.name} #{self.0} #{self.start}
+"#{self.name} #{self.location}"
 end
 
 def hyphen_movement 
+	self.location += (rand(3..7) * self.speed) 
 
 horse1 = Horses.new
 horse1.name = "horse1" 
@@ -77,7 +76,9 @@ end
 
 # def go 
 if place < 100
-	self.place += (rand(10))
+	self.place += (rand(10)) * self.speed)
+else self.place = 0 
+
 
 #get the horses going
 
@@ -90,7 +91,8 @@ if place < 100
 
 class Track
 	attr_accessor : beginning
-	attr_accessor : finish 
+	attr_accessor : finish
+	attr_accessor :  
 
 
 # Class Method
