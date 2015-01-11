@@ -93,6 +93,13 @@ while horse_names[0].location < 100 &&
 	horse_names[1].location < 100 &&
 	horse_names[2].location < 100 &&
 	horse_names[3].location < 100 
+track_new.rails(horse_names)
+
+	horse_names.each do |m|
+		m.hyphen_movement
+	end 
+end
+
 
 
 
