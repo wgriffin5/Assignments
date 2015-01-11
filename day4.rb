@@ -42,6 +42,21 @@ end
 
 def hyphen_movement 
 	self.location += (rand(3..7) * self.speed) 
+	if location >= 100 
+		puts "#{self.name} wins"
+	end
+end
+
+def cheat_method
+	self.location += 30
+end
+
+end
+
+class Track
+
+	attr_accessor :length 
+	
 
 horse1 = Horses.new
 horse1.name = "horse1" 
