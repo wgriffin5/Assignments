@@ -56,31 +56,56 @@ end
 class Track
 
 	attr_accessor :length 
-	
 
-horse1 = Horses.new
-horse1.name = "horse1" 
-horse1.start = 0
-horse1.speed = 1      #{}(changed this to 1, instead of 0. yielding a constant speed to be * by rand)
-horse1.picture = "X"
+def initialize
+	self.length = 100
+end
 
-horse2 = Horses.new
-horse2.name = "horse2"
-horse2.start = 0
-horse2.speed = 1
-horse2.picture = "X"
+def rails horse
+	horse_names.each do | rails |
+		puts 
+		self.length.times do 
+			print "#"
+		end
+		puts "\n\n"
+		rails.location.times do
+			print "-"
+		end
+		puts "#{rails.name}"
+		puts "\n\n"
+		self.length.times do
+			print "#"
+		end	
+	end
+end
+end 
 
-horse3 = Horses.new
-horse3.name = "horse3"
-horse3.start = 0
-horse3.speed = 1
-horse3.picture = "X"
 
-horse4 = Horses.new
-horse4.name = "horse4"
-horse4.start = 0 
-horse4.speed = 1 
-horse4.picture = "X"
+horse_names = ["horse1", "horse2", "horse3", "horse4"]
+
+# horse1 = Horses.new
+# horse1.name = "horse1" 
+# horse1.start = 0
+# horse1.speed = 1      #{}(changed this to 1, instead of 0. yielding a constant speed to be * by rand)
+# horse1.picture = "X"
+
+# horse2 = Horses.new
+# horse2.name = "horse2"
+# horse2.start = 0
+# horse2.speed = 1
+# horse2.picture = "X"
+
+# horse3 = Horses.new
+# horse3.name = "horse3"
+# horse3.start = 0
+# horse3.speed = 1
+# horse3.picture = "X"
+
+# horse4 = Horses.new
+# horse4.name = "horse4"
+# horse4.start = 0 
+# horse4.speed = 1 
+# horse4.picture = "X"
 
 end 
 end 
@@ -104,10 +129,10 @@ else self.place = 0
 
 # perhaps Track can be a giant ARRAY (like tic tac toe)
 
-class Track
-	attr_accessor : beginning
-	attr_accessor : finish
-	attr_accessor :  
+#class Track
+	# attr_accessor : beginning
+	# attr_accessor : finish
+	# attr_accessor :  
 
 
 # Class Method
