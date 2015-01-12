@@ -61,10 +61,10 @@ def initialize
 	self.location = 0
 end
 
-def rails horse
-	horse_names = ["horse1", "horse2", "horse3", "horse4"]
+def rails horse_names
+	# horse_names = ["horse1", "horse2", "horse3", "horse4"]
 
-	horse_names.each do | r |
+	horse_names.each do |r|
 		puts 
 		self.length.times do 
 			print "#"
@@ -87,7 +87,7 @@ horse_names = ["horse1", "horse2", "horse3", "horse4"]
 
 track_new = Track.new
 
-track_new.rails (horse_names)
+track_new.rails(horse_names)
 
 while horse_names[0].location < 100 && 
 	horse_names[1].location < 100 &&
@@ -99,6 +99,14 @@ track_new.rails(horse_names)
 		m.hyphen_movement
 	end 
 end
+
+horse_names.each do |s|
+	if s.location == track_new.length || s.location > track_new.length
+		puts "Race is finished."
+end
+
+
+
 
 
 
