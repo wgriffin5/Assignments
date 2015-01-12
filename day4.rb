@@ -63,7 +63,7 @@ end
 
 def rails horse_names
 	# horse_names = ["horse1", "horse2", "horse3", "horse4"]
-
+	horse_names[0].location
 	horse_names.each do |r|
 		puts 
 		self.length.times do 
@@ -83,7 +83,7 @@ end
 end 
 
 
-horse_names = ["horse1", "horse2", "horse3", "horse4"]
+# horse_names = ["horse1", "horse2", "horse3", "horse4"]
 
 track_new = Track.new
 
@@ -109,37 +109,34 @@ end
 
 
 
+horse_names = [
+
+horse1 = Horses.new
+horse1.name = "horse1" 
+horse1.location = 0
+horse1.speed = 3       
 
 
+horse2 = Horses.new
+horse2.name = "horse2"
+horse2.location = 0
+horse2.speed = 3
 
 
+horse3 = Horses.new
+horse3.name = "horse3"
+horse3.location = 0
+horse3.speed = 3
 
 
+horse4 = Horses.new
+horse4.name = "horse4"
+horse4.location = 0 
+horse4.speed = 3 
 
-# horse1 = Horses.new
-# horse1.name = "horse1" 
-# horse1.start = 0
-# horse1.speed = 1      #{}(changed this to 1, instead of 0. yielding a constant speed to be * by rand)
-# horse1.picture = "X"
+]
 
-# horse2 = Horses.new
-# horse2.name = "horse2"
-# horse2.start = 0
-# horse2.speed = 1
-# horse2.picture = "X"
-
-# horse3 = Horses.new
-# horse3.name = "horse3"
-# horse3.start = 0
-# horse3.speed = 1
-# horse3.picture = "X"
-
-# horse4 = Horses.new
-# horse4.name = "horse4"
-# horse4.start = 0 
-# horse4.speed = 1 
-# horse4.picture = "X"
-
+end 
 # end 
 # end 
 
