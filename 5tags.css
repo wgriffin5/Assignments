@@ -1,0 +1,34 @@
+1 . /*<color>*/
+
+element { color:red }
+
+something {color:rgb xxx,xxx,xxx;}
+
+
+2. rotate() 
+
+rotates around a fixed point, angle goes in parentheses
+
+3. visibility
+
+visibility: visible
+visibility: hidden
+visibility: collapse 
+
+p        { visibility: hidden; }    /* paragraphs won't be visible */
+p.showme { visibility: visible; }   /* except of these with class showme */
+tr.col   { visibility: collapse; }  /* table rows with class col will collapse */
+
+4. element:lang(language-code) { style properties }
+Example
+
+:lang(en) > Q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > Q { quotes: '« ' ' »'; }
+:lang(de) > Q { quotes: '»' '«' '\2039' '\203A'; }
+
+
+5. hover
+
+:link:hover { outline: dotted red; }
+
+.foo:hover { background: gold; }
