@@ -19,14 +19,14 @@ body{
 
 
 .topBar,
-.topRight,
-.img,
+/*.topRight,*/
+.avatar 
 .left-info,
 .middle-Bar,
-.Repositories,
+/*.Repositories,*/
 .Contributions {
 	margin-right:100;
-	margin-left:100 ;
+	margin-left:100;
 }
 
 
@@ -37,21 +37,45 @@ body{
 }
 
 .topRight {
-	top: 15 px;
-	right: 15px;
+	position: absolute;
+	right:20px;
+	top:10px;
+}
+
+
+.avatar
+
+
+
+.left-info ul li {
+	display: block;
+	vertical-align: middle;
+}
+
+
+.middle-bar {
+	position:absolute;
+	right:500px;
+	top:100px;
 
 }
 
-.left-info ul li
+
+
+.Popular-Repositories {
+	position:absolute;
+	right:200px;
+	top:50px;
+}
+	
 
 
 
-
-
-
-.Repositories
-	top: 30
-	right: 50
+.Contributions {
+	position:absolute;
+	right:100px;
+	top:350px;
+}
 
 
 
