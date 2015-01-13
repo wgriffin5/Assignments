@@ -1,0 +1,60 @@
+/*html,
+body {
+	height: 100%;
+
+}
+
+body{
+
+}
+
+.topLeft,
+.topRight,
+.bottomLeft,
+.bottomRight,
+.bottomMiddle {
+	font-size: ;
+	position: absolute;
+}*/
+
+
+.topBar,
+.topRight,
+.img,
+.left-info,
+.middle-Bar,
+.Repositories,
+.Contributions {
+	margin-right:100;
+	margin-left:100 ;
+}
+
+
+.topBar ul li {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.topRight {
+	top: 15 px;
+	right: 15px;
+
+}
+
+.left-info ul li
+
+
+
+
+
+
+.Repositories
+	top: 30
+	right: 50
+
+
+
+
+
+
