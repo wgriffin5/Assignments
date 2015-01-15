@@ -1,0 +1,130 @@
+.header {
+  background-color: green;
+}
+
+.icon {
+  background-color: pink;  
+  width: 100px;
+  display: inline-block;
+}
+
+/*.icon-image {
+  width: 28px;
+  height: 28px;
+  margin: 0 auto;
+}
+*/
+.search {
+  background-color: blue;
+  width: 100px;
+  display: inline-block;
+}
+
+.links {
+  background-color: red;
+  width: 100px;
+  display: inline-block;
+}
+
+.symbols {
+  background-color: yellow; 
+  width: 100px;
+  display: inline-block;
+  float: right;
+}
+
+.header2 {
+  background-color: red;
+}
+
+.content {
+  background-color: pink;
+}
+
+.footer {
+
+
+
+/*/*html,
+body {
+	height: 100%;
+
+}
+
+body{
+
+}
+
+.topLeft,
+.topRight,
+.bottomLeft,
+.bottomRight,
+.bottomMiddle {
+	font-size: ;
+	position: absolute;
+}*/
+
+
+/*.topBar,
+.topRight,
+.avatar, 
+.left-info,
+.middle-Bar,
+.Popular-Repositories
+.Contributions {
+	margin-right:100px;
+	margin-left:100px;
+}
+
+
+.topBar ul li {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.topRight {
+	position: absolute;
+	right:20px;
+	top:10px;
+}
+
+
+.avatar
+
+
+
+.left-info ul li {	
+}
+
+
+.middle-bar {
+	position:absolute;
+	right:500px;
+	top:100px;
+
+}
+
+
+
+.Popular-Repositories {
+	position:absolute;
+	right:200px;
+	top:50px;
+}
+	
+
+
+
+.Contributions {
+	position:absolute;
+	right:100px;
+	top:350px;
+}
+
+
+
+
+
+
+*/*/
