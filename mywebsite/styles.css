@@ -1,41 +1,59 @@
 body {
-    /*background-color: 74ECF2;*/
-    background-image: url(https://ununsplash.imgix.net/photo-1416934625760-d56f5e79f6fe?fit=crop&fm=jpg&h=725&q=75&w=1050);
+ 
+    background-image: url(https://unsplash.imgix.net/uploads/14115890754139bc8568d/d5e1ad1d?fit=crop&fm=jpg&h=700&q=75&w=1050);
     background-size: cover;  
 }
 
-.header {
-  background-color: green;
+
+
+header {
+  /*background-color: green;*/
   float: top;
 }
 
+
+.inline-no-bullet li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 100px;
+    /*font-family: helvetica*/
+    /*font-size: 20px;*/
+}
+
 .search {
-  background-color: magenta;
+  /*background-color: magenta;*/
   width: 100px;
   /*display: inline-block;*/
   float:left;
 }
 
+
+.img {
+
+    float:left;
+    width: 300px;
+    height: 300px
+    top: 300px; 
+
+    }  
+}
+
 .icon {
   background-color: pink;
-  height: 100px;  
-  width: 100px;
-  /*display: inline-block;*/
+  height: 80px;  
+  width: 80px;
+  position: fixed;
+  top: 150px;
+  left:20px;
 }
 
-/*.icon-image {
-  width: 28px;
-  height: 28px;
-  margin: 0 auto;
-}
-*/
 
 
-.links {
-  background-color: red;
-  width: 100px;
+.links, .links2, .links3 {
+  /*background-color: red;*/
+  width: 200px;
   display: inline-block;
-  float: right;
+  float: right
 }
 
 .symbols {
@@ -45,33 +63,41 @@ body {
   float: right;
 }
 
-.header2 {
-  background-color: violet;
-}
+
 
 .content, .content2, .content3 {
-  background-color: orange;
-  height: 500px;
-  width: 700px;
-  position: absolute;
-  right: 300;
-  left: 300;
-  font-family: georgia
+  /*background-color: orange;*/
+  top: 500px;
+  width: 60vw;
+  margin: 0 auto;
 }
 
-.footer {
-  background-color: blue;
-  position: absolute;
-  bottom: 50px;
+
+.fonterize ul {
+  font-family: 'helvetica';
+  font-size: 40px;
+  text-shadow: 0 20px 0 rgba(0,0,0,0,7);
+}
+
+.margin-narrow ul {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+footer {
+  /*background-color: blue;*/
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 
 }
   
 
-##########
 
-/*PAGE 2 STYLING*/
 
-.content3
+
+
+
 
 
 
