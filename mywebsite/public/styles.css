@@ -6,7 +6,7 @@ body {
 
 
 
-header {
+.header {
   /*background-color: green;*/
   float: top;
 }
@@ -84,7 +84,7 @@ header {
   margin: 0 auto;
 }
 
-footer {
+.footer {
   /*background-color: blue;*/
   position: fixed;
   width: 100%;
